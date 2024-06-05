@@ -49,7 +49,7 @@ An innovative real estate matching application that leverages advanced AI techno
 
 2. Start the application:
    ```bash
-   python app.py  # Or run the Jupyter Notebook if applicable
+   python app.py  
    ```
 
 3. Open the Gradio interface in your web browser as instructed by the terminal output.
