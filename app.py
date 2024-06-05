@@ -1,4 +1,3 @@
-# importing libraries
 import pandas as pd
 from typing import List
 from langchain.prompts import PromptTemplate
@@ -23,7 +22,6 @@ MODEL_NAME = 'gpt-4'
 
 # Convert result to DataFrame and save to CSV
 def save_to_csv(listings, filename="real_state_listings.csv"):
-    # Convert each RealEstateListing object to a dictionary and create a DataFrame
     df = pd.DataFrame([listing.dict() for listing in listings.listings])
     df.to_csv(filename, index=False)
 
@@ -112,41 +110,16 @@ def display_similar_docs(house_size, top_3, ammenities, transportation, urban_ch
     df = pd.DataFrame(data)
     return df
 
-# Function to generate and display sample data
 def generate_sample_data():
-    # Assuming example and other necessary variables are defined
+
     model = ChatOpenAI(model=MODEL_NAME, openai_api_key=OPENAI_API_KEY)
-    # Chain the components
+
     chain = prompt | model | parser
     result = chain.invoke({"example": example, "city": "London", "quantity": 15})
     save_to_csv(result)
     return "Sample data generated and saved successfully."
 
-# Create a Gradio interface
-def update_interface(state, button_pressed):
-    if button_pressed == "generate":
-        message = generate_sample_data()
-        return state, message, True  # Enable the 'display' button
-    elif button_pressed == "display":
-        docs = display_similar_docs()
-        return state, docs, True
-    return state, "", False  # Initial state, with 'display' button disabled
 
-interface = gr.Interface(
-    fn=update_interface,
-    inputs=[
-        gr.State(),  # To maintain the state across button presses
-        gr.Radio(["generate", "display"], label="Select Action")
-    ],
-    outputs=[
-        gr.State(),
-        gr.Dataframe(label="Output")
-    ],
-    live=False,  # Disable live updates, actions only happen when button is pressed
-    allow_flagging="never"
-)
-
-# Add a button to the loaded interface
 with gr.Blocks() as demo:
     gr.Markdown("# AI Real Estate")
     house_size = gr.Textbox(label="How big do you want your house to be?", value="2000 sqft")
@@ -162,4 +135,5 @@ with gr.Blocks() as demo:
 
 #demo.launch(generate_sample_data())
 demo.launch()
+
 

@@ -25,8 +25,8 @@ An innovative real estate matching application that leverages advanced AI techno
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/HomeMatch.git
-   cd HomeMatch
+   git clone https://github.com/yourusername/llm-agent.git
+   cd llm-agent
    ```
 
 2. Set up a virtual environment:
