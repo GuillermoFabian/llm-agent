@@ -1,0 +1,16 @@
+neighborhood,price,bedrooms,bathrooms,house_size,description,neighborhood_description
+Mayfair,2400000,3,2,1800,"An elegant 3-bedroom apartment in the heart of Mayfair, featuring high ceilings and a modern kitchen.",Mayfair is a high-end district in London known for its elegant Georgian townhouses.
+Shoreditch,700000,2,1,950,A trendy loft-style apartment in Shoreditch with open-plan living space and industrial-chic decor.,"Shoreditch is a vibrant, creative area known for its street art and indie fashion shops."
+Notting Hill,1500000,4,3,2000,"A charming 4-bedroom townhouse in Notting Hill, with a private garden and original Victorian features.",Notting Hill is a cosmopolitan district known for its Portobello Road Market and annual Carnival.
+Kensington,2200000,3,2,1900,"A spacious 3-bedroom apartment in Kensington, with a modern kitchen and a communal garden.",Kensington is a prestigious district known for its grand Victorian architecture and high-end shopping.
+Belgravia,3000000,4,4,2500,"An exquisite 4-bedroom house in Belgravia, with a private patio and a large master suite.",Belgravia is a refined district known for its stately townhouses and refined squares.
+Camden Town,800000,2,2,1050,"A modern 2-bedroom apartment in Camden Town, with a private balcony and open-plan living space.",Camden Town is a lively district known for its market and vibrant nightlife.
+Brixton,600000,3,1,1200,"A bright 3-bedroom house in Brixton, with a large kitchen and a private garden.",Brixton is a multicultural area known for its street food and live music venues.
+Islington,1100000,3,2,1400,"A stylish 3-bedroom townhouse in Islington, with a private patio and a large master bedroom.",Islington is a chic district known for its boutique shops and vibrant food scene.
+Chelsea,2500000,3,3,2000,"A luxury 3-bedroom apartment in Chelsea, with a modern kitchen and a large balcony.",Chelsea is a prestigious district known for its high-end boutiques and famous football club.
+Greenwich,650000,2,2,1050,"A charming 2-bedroom apartment in Greenwich, with a private balcony and river views.",Greenwich is a historic district known for its maritime heritage and beautiful park.
+Hampstead,1800000,4,3,2200,"A spacious 4-bedroom house in Hampstead, with a large garden and a study.",Hampstead is a leafy district known for its literary associations and beautiful Heath.
+Soho,1300000,2,2,1000,"A stylish 2-bedroom apartment in Soho, with a modern kitchen and a roof terrace.","Soho is a vibrant district known for its nightlife, theatres and diverse food scene."
+Covent Garden,1500000,2,2,1200,"A beautiful 2-bedroom apartment in Covent Garden, with high ceilings and a private balcony.",Covent Garden is a bustling district known for its fashionable boutiques and famous market.
+Fulham,1200000,3,2,1500,"A modern 3-bedroom house in Fulham, with a large kitchen and a private garden.",Fulham is a family-friendly district known for its green spaces and riverside pubs.
+Clapham,800000,2,2,1000,"A bright 2-bedroom apartment in Clapham, with a private balcony and open-plan living space.",Clapham is a popular district known for its vibrant nightlife and beautiful Common.
