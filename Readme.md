@@ -57,3 +57,5 @@ An innovative real estate matching application that leverages advanced AI techno
 ## Example Usage
 
 After starting the application, input your preferences through the interface. The application will display real estate listings that match your criteria.
+
+![Screenshot Description](img/app.png)
