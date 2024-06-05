@@ -1,4 +1,4 @@
-# Real State AI
+# Real State LLM Agent
 
 An innovative real estate matching application that leverages advanced AI technologies to generate and match real estate listings based on user preferences. This application utilizes tools like Gradio for user interfaces, LangChain for generating listings, and ChromaDB for storing and querying vector embeddings of real estate listings.
 
